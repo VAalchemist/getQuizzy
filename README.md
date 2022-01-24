@@ -3,7 +3,7 @@
 ## It's time to get quizzy with it 🙌 
 
 ## Description
-This timed code quiz features multiple-choice questions about javascript. If answered incorrectly, time is deducted. To access this website  [click here!](https://vaalchemist.github.io/getQuizzy/)
+This timed code quiz features a multiple-choice quiz about javascript. If answered incorrectly, time gets deducted from final score. To access this website  [click here!](https://vaalchemist.github.io/getQuizzy/)
 
 ## User Story
 
@@ -29,4 +29,4 @@ WHEN the game is over
 THEN I can save my initials and score
 ```
 
-![Mock-up](https://raw.githubusercontent.com/VAalchemist/passwordGenerator/main/Develope/assets/images/screenShot.png)
+![Mock-up](https://raw.githubusercontent.com/VAalchemist/getQuizzy/main/assets/images/mockup.gif)
