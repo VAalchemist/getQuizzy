@@ -9,35 +9,92 @@
 </head>
 <body>
     <!-- header container -->
-    <header class="container-fluid mb-5">
+    <header class="header-title">
         <!--  scores link/time div -->
-        <div class="row">
+        <div class="">
             <!-- high scores div -->
-            <div class="col-6">
-                <button id="view-scores" type="button" class="btn btn-secondary d-inline-block mt-1">View High Scores</button>
+            <div class="">
+                <button id="view-scores" type="button" class="btn">High Scores</button>
             </div>
             <!-- Timer -->
-            <div class="col-6">
-                <p class="d-flex justify-content-end time">Time:75s</p>
+            <div class="">
+                <p class="">80 seconds</p>
             </div>
         </div>
     </header>
 
-    <!-- main content container -->
     <main>
         <!-- intro, questions, and answers container -->
         <div class="container">
             <!-- header and intro section, hide when started-->
             <section id="intro">
-                <div class="row">
-                    <div class="col-3"></div>
-                    <div class="col-6">
-                        <h1 class="d-flex justify-content-center text-center">You are cordially invited to take this coding quiz! </h1>
-                        <p class="d-flex justify-content-center text-center">Do your best and answer the following questions within the time limit. Don't forget! Wrong answers affect your score & time by ten seconds</p>
-                        <button id="start" type="button" class="btn btn-success mx-auto d-block">Start Quiz</button></p>
+                <div class="">
+                    <div class=""></div>
+                    <div class="">
+                        <h1 class="">You are cordially invited to take this coding quiz! </h1>
+                        <p class="">Do your best and answer the following questions within the time limit. Don't forget! Wrong answers affect your score & time by ten seconds</p>
+                        <button id="start" type="button" class="btn">Start Quiz</button></p>
                     </div>
                 </div>
             </section>
+
+            <!-- questions and answers section-->
+            <section id="questions">
+                <div class="">
+                    <div class=""></div>
+                    <div class="">
+                        <h2 id="question">I'm a question</h2>
+                        <ul class="">
+                            <li class=""><button id="answer1" value="0" type="button"
+                                    class="btn">Answer1</button></li>
+                            <li class=""><button id="answer2" value="1" type="button"
+                                    class="btn">Answer2</button></li>
+                            <li class=""><button id="answer3" value="2" type="button"
+                                    class="btn">Answer3</button></li>
+                            <li class=""><button id="answer4" value="3" type="button"
+                                    class="">Answer4</button></li>
+                        </ul>
+                        <div id="yesno" class="btn">
+                            <!--right and wrong added here. HTML hr tag used for line break here-->
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- initials and final score -->
+            <section id="final">
+                <div class="">
+                    <div class=""></div>
+                    <div class="">
+                        <h2>All done!</h2>
+                        <p>Final score: <span id="score" class="">0</span></p>
+                        <p>Enter your initials: <span class=""><input placeholder="initials" id="initials" /></span>
+                            <button id="submit-score" class="btn">Submit</button>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- high score section -->
+            <section id="highscores">
+                <div class="">
+                    <div class=""></div>
+                    <div class="">
+                        <h2>High Scores</h2>
+                        <ol id="score-list">
+                            <!--list from javascript-->
+                        </ol>
+                        <button id="goback" class="btn">Back</button>
+                        <button id="clearscores" class="btn">Clear scores</button>
+                    </div>
+                </div>
+            </section>
+    </main>
+            
+    <footer>
+        &copy;2022 by getQUIZZYwithIT
+    </footer>
 
     <script src="assets/script.js"></script>
 </body>

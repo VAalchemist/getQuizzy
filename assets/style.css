@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #5a9a9c;
+  --secondary: #734980;
+  --tertiary: rgb(240, 192, 164);
+  --grey: #333;
+  font-size: 62.5%;
+}
+
+header {
+  background: var(--secondary);
+  padding: 30px 25px;
+  border-bottom: 5px solid var(--primary);
+}
+
+header p {
+  color: var(--tertiary);
+  margin: 5px 0 20px;
+  font-size: 2rem;
+}
+
+p,
+li {
+  font-size: 1.6rem;
+}
+
+.header-title {
+  color: var(--primary);
+  margin-bottom: 5px;
+  margin-top: 0;
+  font-size: 4.5rem;
+}
+
+#questions,
+#final,
+#highscores,
+#yesno {
+    display: none;  
+  } 
+
+
+footer {
+  width: 100%;
+  background: var(--secondary);
+  color: var(--tertiary);
+  font-size: 1.4rem;
+  padding: 20px;
+  border-top: 5px solid var(--primary);
+}
